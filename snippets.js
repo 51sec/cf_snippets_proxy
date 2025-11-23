@@ -6,7 +6,7 @@ const UUID = '1f9d104e-ca0e-4202-ba4b-a0afb969c747';
 // 反向代理IP，无法访问时通过代理访问
 const DEFAULT_PROXY_IP = 'bestproxy.030101.xyz:443'; // 来源：https://ipdb.030101.xyz/bestdomain/
 // 优选域名/IP
-const BEST_DOMAINS = ['bestcf.030101.xyz:443', 'japan.com:443', 'www.visa.com.sg:443', "www.visa.com.hk:443", "icook.hk:443", "icook.tw:443"]
+const BEST_DOMAINS = ['bestcf.030101.xyz:443', 'japan.com:443', 'www.visa.com.sg:443', "www.visa.com.hk:443", "icook.hk:443", "icook.tw:443",,'cloudflare.182682.xyz:443', 'cloudflare.182682.xyz:443', 'speed.marisalnc.com:443', 'speed.marisalnc.com:443', 'freeyx.cloudflare88.eu.org:443', 'bestcf.top:443', 'cdn.2020111.xyz:443', 'cfip.cfcdn.vip:443' ,'cf.0sm.com:443', 'cf.090227.xyz:443', 'cf.zhetengsha.eu.org:443', 'cloudflare.9jy.cc:443', 'cf.zerone-cdn.pp.ua:443', 'cfip.1323123.xyz:443', 'cnamefuckxxs.yuchen.icu:443', 'cloudflare-ip.mofashi.ltd:443', '115155.xyz:443', 'cname.xirancdn.us:443', 'f3058171cad.002404.xyz:443', '8.889288.xyz:443', 'cdn.tzpro.xyz:443', 'cf.877771.xyz:443', 'xn--b6gac.eu.org:443']
 
 
 export default {
@@ -315,4 +315,5 @@ async function handle_ws(req) {
         status: 101,
         webSocket: client
     });
+
 }
